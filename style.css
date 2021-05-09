@@ -1,0 +1,211 @@
+body{
+    font-family: sans-serif;
+    /*This pattern is downloaded from www.subtlepatterns.com*/
+    /*If you need more, that's where to get'em.*/
+    background-image: url("dot-grid/dot-grid.png");
+}
+.container{
+    max-width: 1000px;
+    margin: 20px auto 0;
+}
+.grid-item{
+
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+    padding: 8px;
+}
+.grid-item-1, .grid-item-1 h1{
+    grid-column: 1 / span 2;
+    height: 200px;
+    font-size: 5rem;
+
+}
+.grid-item-2{
+    grid-column: 1 / span 2;
+    grid-row: 2 / 3;
+    height: 430px ;
+
+
+}
+.grid-item-3{
+    grid-column: 1 / span 2;
+    grid-row: 3 / 4 ;
+    font-size: 1.5rem;
+    height: 100px;
+
+}
+.grid-item-4, .grid-item-4 p{
+    grid-column: 1 / span 2;
+    grid-row: 4 / 5 ;
+    font-size: 2rem;}
+
+.grid-item-5, .grid-item-5 h1{
+    grid-column: 1 / span 2;
+    grid-row: 5 / 6 ;
+    font-size: 5rem;
+
+}
+.grid-item-6, .grid-item-6 p{
+    grid-column: 1 / span 2;
+    grid-row: 6 / 7 ;
+    font-size: 2rem;
+    text-align: justify;
+    padding: 5px;
+    font-family: sans-serif;
+
+}
+.grid-item-7, .grid-item-7 h1{
+    grid-column: 1 / span 2;
+    grid-row: 7 / 8 ;
+    font-size: 5rem;
+    text-align: left;
+
+}
+.grid-item-8, .grid-item-8 li{
+    grid-column: 1 / span 2;
+    grid-row: 8 / 9 ;
+    text-align: left;
+    list-style: none;
+    font-size: 2rem;
+}
+.grid-item-9, .grid-item-9 h1{
+    grid-column: 1 / span 2;
+    grid-row: 9 / 10 ;
+    font-size: 5rem;
+}
+.grid-item-10, .grid-item-10 p {
+    grid-column: 1 / span 2;
+    grid-row: 10 / 11;
+    font-size: 1.8rem;
+    margin-bottom: 100px;
+    justify-self: stretch;
+}
+.grid-item-11, .grid-item-11 figure{
+    grid-column: 1 / span 2;
+    grid-row: 11 / 12 ;
+    font-size: 3rem;
+    height: 600px;
+    color: #0D6EFD;
+    margin-bottom: 100px;
+}
+.grid-item-12, .grid-item-12 figure{
+    grid-column: 1 / span 2;
+    grid-row: 12 / 13 ;
+    font-size: 3rem;
+    height: 600px;
+    color: #0D6EFD;
+    margin-bottom: 100px;
+}
+.grid-item-13, .grid-item-13 figure{
+    grid-column: 1 / span 2;
+    grid-row: 13 / 14 ;
+    font-size: 3rem;
+    height: 600px;
+    color: #0D6EFD;
+    margin-bottom: 100px;
+}
+.grid-item-14, .grid-item-14 figure{
+    grid-column: 1 / span 2;
+    grid-row: 14 / 15 ;
+    font-size: 3rem;
+    height: 600px;
+    color: #0D6EFD;
+    margin-bottom: 100px;
+}
+.grid-item-15, .grid-item-15 figure{
+    grid-column: 1 / span 2;
+    grid-row: 15 / 16 ;
+    font-size: 3rem;
+    height: 600px;
+    color: #0D6EFD;
+    margin-bottom: 100px;
+}
+.grid-item-16, .grid-item-16 figure{
+    grid-column: 1 / span 2;
+    grid-row: 16 / 17 ;
+    font-size: 3rem;
+    height: 600px;
+    color: #0D6EFD;
+    margin-bottom: 100px;
+}
+.grid-item-17, .grid-item-17 figure{
+    grid-column: 1 / span 2;
+    grid-row: 17 / 18 ;
+    font-size: 3rem;
+    height: 600px;
+    color: #0D6EFD;
+    margin-bottom: 100px;
+}
+.grid-item-18, .grid-item-18 figure{
+    grid-column: 1 / span 2;
+    grid-row: 18 / 19 ;
+    font-size: 3rem;
+    height: 600px;
+    color: #0D6EFD;
+    margin-bottom: 100px;
+}
+.grid-item-19, .grid-item-19 figure{
+    grid-column: 1 / span 2;
+    grid-row: 19 / 20 ;
+    font-size: 3rem;
+    height: 600px;
+    color: #0D6EFD;
+    margin-bottom: 100px;
+}
+.grid-item-20{
+    grid-column: 1 / span 2;
+    grid-row: 20 / 21 ;
+}
+.grid-item-21{
+    grid-column: 1 / span 2;
+    grid-row: 21 / 22 ;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    display: inline;
+}
+.grid-item-22{
+    grid-column: 1 / span 2;
+    grid-row: 22 / 23 ;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    display: inline;
+}
+.grid-item-23{
+    grid-column: 1 / span 2;
+    grid-row: 23 / 24 ;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    display: inline;
+}
+.grid-item-21 h2, .grid-item-22 h2,.grid-item-23 h2{
+    color: #0D6EFD;
+    font-size: 4rem;
+    margin: 40px auto 0;
+}
+.grid-item-21 p, .grid-item-22 p,.grid-item-23 p{
+    color: black;
+    font-size: 2rem;
+    text-align: justify;
+    padding: 35px;
+    margin-top: 20px;
+}
+.grid-item-21 li, .grid-item-22 li,.grid-item-23 li{
+    font-size: 2rem;
+    text-align: left;
+    padding: 5px;
+}
+.grid-item-21 ul, .grid-item-22 ul,.grid-item-23 ul{
+    padding-left: 80px;
+    color: black;
+    font-weight: bold;
+}
