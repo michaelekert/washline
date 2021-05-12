@@ -19,7 +19,7 @@ body{
 }
 .grid {
     display: grid;
-
+    margin-top: 400px;
     grid-template-columns: 1fr 1fr;
     grid-gap: 8px;
     padding: 8px;
@@ -41,7 +41,8 @@ body{
     grid-column: 1 / span 2;
     grid-row: 3 / 4 ;
     font-size: 1.5rem;
-    height: 100px;
+    height: 200px;
+    display: inline;
 
 }
 .grid-item-4, .grid-item-4 p{
@@ -53,6 +54,7 @@ body{
     grid-column: 1 / span 2;
     grid-row: 5 / 6 ;
     font-size: 5rem;
+    margin-top: 300px;
 
 }
 .grid-item-6, .grid-item-6 p{
@@ -69,6 +71,7 @@ body{
     grid-row: 7 / 8 ;
     font-size: 5rem;
     text-align: left;
+    margin-top: 300px;
 
 }
 .grid-item-8, .grid-item-8 li{
@@ -85,6 +88,7 @@ body{
     grid-column: 1 / span 2;
     grid-row: 9 / 10 ;
     font-size: 5rem;
+    margin-top: 300px;
 }
 .grid-item-10, .grid-item-10 p {
     grid-column: 1 / span 2;
@@ -168,6 +172,7 @@ body{
 .grid-item-20{
     grid-column: 1 / span 2;
     grid-row: 20 / 21 ;
+    margin-top: 300px;
 }
 .grid-item-21{
     grid-column: 1 / span 2;
@@ -230,7 +235,7 @@ body{
 @media (min-width: 1024px) {
     .grid {
         display: grid;
-
+        margin-top: 10px;
         grid-template-columns: 1fr 1fr;
         grid-gap: 8px;
         padding: 8px;
@@ -253,6 +258,7 @@ body{
         grid-row: 3 / 4 ;
         font-size: 1rem;
         height: 100px;
+        display: inline;
 
     }
     .grid-item-4, .grid-item-4 p{
