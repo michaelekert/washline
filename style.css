@@ -4,6 +4,10 @@ body{
     /*If you need more, that's where to get'em.*/
     background-image: url("dot-grid/dot-grid.png");
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .container{
     max-width: 1000px;
     margin: 20px auto 0;
@@ -197,16 +201,19 @@ body{
     background-color: white;
     border-radius: 20px;
     display: inline;
+    margin-bottom: 150px;
 }
 .grid-item-21 h2, .grid-item-22 h2,.grid-item-23 h2{
-    color: #0D6EFD;
+    color: white;
     font-size: 4rem;
     margin: 40px auto 0;
+    background-color: #0D6EFD;
 }
 .grid-item-21 p, .grid-item-22 p,.grid-item-23 p{
     color: black;
     font-size: 2rem;
     text-align: justify;
+    font-weight: bold;
     padding: 35px;
     margin-top: 20px;
 }
@@ -322,6 +329,13 @@ body{
         margin-bottom: 100px;
         justify-self: stretch;
     }
+
+    .grid-item figure:hover{
+        background-color: #0D6EFD;
+        color: white;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
     .grid-item-11, .grid-item-11 figure{
         grid-column: 1 / 2;
         grid-row: 11 / 12 ;
@@ -329,6 +343,7 @@ body{
         height: 400px;
         color: #0D6EFD;
         margin-bottom: 100px;
+        padding: 10px;
     }
     .grid-item-12, .grid-item-12 figure{
         grid-column: 2 / 3;
@@ -337,6 +352,7 @@ body{
         height: 400px;
         color: #0D6EFD;
         margin-bottom: 100px;
+        padding: 10px;
     }
     .grid-item-13, .grid-item-13 figure{
         grid-column: 1 / 2;
@@ -345,6 +361,7 @@ body{
         height: 400px;
         color: #0D6EFD;
         margin-bottom: 100px;
+        padding: 10px;
     }
     .grid-item-14, .grid-item-14 figure{
         grid-column: 2 / 3;
@@ -353,6 +370,7 @@ body{
         height: 400px;
         color: #0D6EFD;
         margin-bottom: 100px;
+        padding: 10px;
     }
     .grid-item-15, .grid-item-15 figure{
         grid-column: 1 / 2;
@@ -361,6 +379,7 @@ body{
         height: 400px;
         color: #0D6EFD;
         margin-bottom: 100px;
+        padding: 10px;
     }
     .grid-item-16, .grid-item-16 figure{
         grid-column: 2 / 3;
@@ -369,6 +388,7 @@ body{
         height: 400px;
         color: #0D6EFD;
         margin-bottom: 100px;
+        padding: 10px;
     }
     .grid-item-17, .grid-item-17 figure{
         grid-column: 1 / 2;
@@ -377,6 +397,7 @@ body{
         height: 400px;
         color: #0D6EFD;
         margin-bottom: 100px;
+        padding: 10px;
     }
     .grid-item-18, .grid-item-18 figure{
         grid-column: 2 / 3;
@@ -385,6 +406,7 @@ body{
         height: 400px;
         color: #0D6EFD;
         margin-bottom: 100px;
+        padding: 10px;
     }
     .grid-item-19, .grid-item-19 figure{
         grid-column: 1 / 2;
@@ -393,6 +415,7 @@ body{
         height: 400px;
         color: #0D6EFD;
         margin-bottom: 100px;
+        padding: 10px;
     }
     .grid-item-20, .grid-item-20 h1{
         grid-column: 1 / span 2;
@@ -426,13 +449,15 @@ body{
         display: inline;
     }
     .grid-item-21 h2, .grid-item-22 h2,.grid-item-23 h2{
-        color: #0D6EFD;
+        color: white;
         font-size: 3.5rem;
         margin: 40px auto 0;
+        background-color: #0D6EFD;
     }
     .grid-item-21 p, .grid-item-22 p,.grid-item-23 p{
         color: black;
         font-size: 1.5rem;
+        font-weight: bold;
         text-align: justify;
         padding: 35px;
         margin-top: 20px;
