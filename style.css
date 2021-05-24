@@ -239,7 +239,7 @@ footer{
     grid-column: 1 / 2;
     grid-row: 24 / 25 ;
     background-color: white;
-    height: 600px;
+    height: 500px;
 }
 .grid-item-24 img{
     justify-self: start;
@@ -250,7 +250,7 @@ footer{
     grid-row: 24 / 25 ;
     background-color: white;
     display: inline;
-    height: 600px;
+    height: 500px;
     text-align: left;
     white-space: pre-line;
 }
@@ -260,6 +260,7 @@ footer{
 }
 .grid-item-25 h1{
     font-size: 2.5rem;
+    margin-top: 100px;
 }
 
 @media (min-width: 1024px) {
