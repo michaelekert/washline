@@ -52,7 +52,7 @@ a{
 .grid-item-4, .grid-item-4 p{
     grid-column: 1 / span 2;
     grid-row: 4 / 5 ;
-    font-size: 2rem;}
+    font-size: 2.5rem;}
 
 .grid-item-5, .grid-item-5 h1{
     grid-column: 1 / span 2;
@@ -64,7 +64,7 @@ a{
 .grid-item-6, .grid-item-6 p{
     grid-column: 1 / span 2;
     grid-row: 6 / 7 ;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: justify;
     padding: 5px;
     font-family: sans-serif;
@@ -97,7 +97,7 @@ a{
 .grid-item-10, .grid-item-10 p {
     grid-column: 1 / span 2;
     grid-row: 10 / 11;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin-bottom: 100px;
     justify-self: stretch;
 }

@@ -1,0 +1,182 @@
+body{
+    font-family: sans-serif;
+    /*This pattern is downloaded from www.subtlepatterns.com*/
+    /*If you need more, that's where to get'em.*/
+    background-image: url("../dot-grid/dot-grid.png");
+}
+main{
+    max-width: 1000px;
+    margin: 20px auto 0;
+}
+.grid-item{
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.grid {
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+    padding: 8px;
+}
+
+.grid-item-1{
+    margin-top: 200px;
+    grid-column: 1 / span 2;
+    height: 100px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    color: #0D6EFD;
+    font-size: 5rem;
+}
+.grid-item-2{
+    grid-column: 1 / span 2;
+    grid-row: 2 / 3;
+}
+.grid-item-3{
+    grid-column: 1 / span 2;
+    grid-row: 3 / 4;
+}
+.grid-item-4{
+    grid-column: 1 / span 2;
+    grid-row: 4 / 5;
+    display: inline;
+    font-size: 2.5rem;
+}
+.grid-item-5{
+    grid-column: 1 / span 2;
+    grid-row: 5 / 6;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.grid-item-5 a{
+    border-radius: 10px;
+    background-color: white;
+    border: #0D6EFD solid 3px;
+    padding: 10px;
+    text-decoration: none;
+    color: #0D6EFD;
+    font-size: 3rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.grid-item-5 a:hover{
+    border-radius: 10px;
+    background-color: #0D6EFD;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    transition: 0.5s;
+    width: 100%;
+}
+
+@media (min-width: 1024px){
+    .grid-item{
+        color: black;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 3rem;
+    }
+    .grid {
+        display: grid;
+        margin-top: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 8px;
+        padding: 8px;
+    }
+
+    .grid-item-1{
+        grid-column: 1 / span 2;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        height: 100px;
+        font-weight: bold;
+        color: #0D6EFD;
+    }
+    .grid-item-2{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .grid-item-3{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .grid-item-4{
+        grid-column: 1 / span 2;
+        grid-row: 3 / 4;
+        display: inline;
+        font-size: 2rem;
+    }
+    .grid-item-5{
+        grid-column: 1 / span 2;
+        grid-row: 4 / 5;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+    tr:nth-child(odd) {
+        background-color: #ffffff;
+    }
+
+    .grid-item-5 a{
+        border-radius: 10px;
+        background-color: white;
+        border: #0D6EFD solid 3px;
+        padding: 10px;
+        text-decoration: none;
+        color: #0D6EFD;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .grid-item-5 a:hover{
+        border-radius: 10px;
+        background-color: #0D6EFD;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+}
